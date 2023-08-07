@@ -1,0 +1,139 @@
+/* ===================== TOUR ======================*/
+
+.video-section {
+	position: relative;
+	z-index: 1
+}
+
+.video-pattern {
+	position: absolute;
+	top: 27%;
+	left: 16%;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	animation-name: float-bob;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-name: float-bob;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: float-bob;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: float-bob;
+	-ms-animation-duration: 1.5s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	-o-animation-name: float-bob;
+	-o-animation-duration: 1.5s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+}
+
+.video-section .video-bg-shape {
+	background-color: transparent;
+	background-image: -webkit-linear-gradient(150deg, #7052fb 0%, #7052fb 100%);
+	background-image: linear-gradient(-60deg, #7052fb 0%, #7052fb 100%);
+	max-height: 700px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+.video-bg-shape:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-left: 1900px solid #fff;
+	border-bottom: 0px solid transparent;
+}
+
+.video-section .section-title {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto 50px;
+}
+
+.video-section .section-title p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.video-section .section-title h2 {
+	color: #fff;
+	margin-top: 15px;
+}
+
+.video-section .section-title h2 span:after {
+	background-color: #3A1BC6;
+}
+
+.video-inn {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	z-index: 1
+}
+
+.video-inn img {
+	border-radius: 5px;
+}
+
+.video-inn .play-video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) scale(1);
+	transform: translate(-50%, -50%) scale(1);
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 32px;
+	background: #fff;
+	border-radius: 50%;
+	color: #7052fb;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	overflow: hidden;
+	z-index: 9
+}
+
+.video-inn .play-video i {
+	margin-left: 5px;
+}
+
+.video-inn .play-video .flaticon-play:before {
+	font-size: 34px
+}
+
+.video-inn:hover .play-video {
+	background: #fff;
+	-webkit-transform: translate(-50%, -50%) scale(1.1);
+	transform: translate(-50%, -50%) scale(1.1);
+}
+.play-video{
+	border: none;
+}
+.video-section{
+	position: relative;
+	z-index: 111;
+}

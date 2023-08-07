@@ -1,0 +1,39 @@
+/* ===================== ABOUT ======================*/
+
+.about-section {
+	background: #eef3fa none repeat scroll 0 0;
+	position: relative
+}
+
+.about-top-shape {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.about-bottom-shape {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.about-left h3 {
+	font-size: 44px;
+	font-weight: 700;
+	color: #1c2045;
+	margin-bottom: 20px;
+}
+
+.about-right img {
+	border-radius: 10px
+}
+
+.about-top .about-left {
+	padding-right: 5%
+}
+
+.about-bottom .about-left {
+	padding-left: 5%
+}

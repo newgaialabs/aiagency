@@ -1,0 +1,326 @@
+/* ===================== HERO ======================*/
+
+.hero-section {
+	position: relative;
+	overflow: hidden;
+	background: #7052fb none repeat scroll 0 0;
+	height: 890px;
+	padding-top: 220px;
+	margin-top: -110px;
+	z-index: 1;
+}
+
+.hero-section .hero-shape1 {
+	position: absolute;
+	top: 65%;
+	left: 2%;
+	-webkit-animation: rotaed360 6s infinite linear;
+	animation: rotaed360 6s infinite linear;
+	z-index: 1
+}
+
+.hero-section .hero-shape2 {
+	position: absolute;
+	top: 30%;
+	left: 38%;
+	-webkit-animation: animationFramesOne 15s linear infinite;
+	animation: animationFramesOne 15s linear infinite;
+	z-index: 1
+}
+
+.hero-section .hero-shape3 {
+	position: absolute;
+	top: 54%;
+	left: 35%;
+	-webkit-animation: animationFramesOne 10s linear infinite;
+	animation: animationFramesOne 10s linear infinite;
+	z-index: 1;
+}
+
+.hero-section .hero-shape4 {
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	-webkit-animation: animationFramesOne 15s linear infinite;
+	animation: animationFramesOne 15s linear infinite;
+	z-index: 1;
+}
+
+.hero-section .hero-shape5 {
+	position: absolute;
+	right: 8%;
+	z-index: 1;
+	top: 16%;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	animation-name: float-bob;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-name: float-bob;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: float-bob;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: float-bob;
+	-ms-animation-duration: 1.5s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+	-o-animation-name: float-bob;
+	-o-animation-duration: 1.5s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+}
+
+.hero-section .hero-bg {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1028px;
+}
+
+.hero-section .hero-bg img {
+	max-width: unset;
+}
+
+.hero-left h2 {
+	font-weight: 700;
+	color: #1c2045;
+	font-size: 56px;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.hero-left h2 span {
+	display: block;
+	position: relative;
+	z-index: 1
+}
+
+.underline {
+	position: relative
+}
+
+.hero-left h2 span.underline {
+	display: inline-block
+}
+
+.hero-left h2 span.underline:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	height: 16px;
+	height: 1rem;
+	bottom: 7px;
+	z-index: -1;
+	background-color: #9B86FC;
+	width: auto;
+	opacity: 0.4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+}
+
+.hero-right {
+	position: relative;
+	z-index: 1
+}
+
+.hero-right>img {
+	width: 90%;
+	border-radius: 30px;
+}
+
+.hero-dot-shape {
+	width: 230px;
+	position: absolute;
+	left: -70px;
+	bottom: -55px;
+	z-index: -1;
+}
+
+.hero-dot-shape img {
+	width: 100%
+}
+
+@-webkit-keyframes rotaed360 {
+	0% {
+		-webkit-transform: rotateZ(0deg);
+		transform: rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateZ(-360deg);
+		transform: rotateZ(-360deg);
+	}
+}
+
+@keyframes rotaed360 {
+	0% {
+		-webkit-transform: rotateZ(0deg);
+		transform: rotateZ(0deg);
+	}
+	100% {
+		-webkit-transform: rotateZ(-360deg);
+		transform: rotateZ(-360deg);
+	}
+}
+
+@-webkit-keyframes animationFramesOne {
+	0% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	20% {
+		-webkit-transform: translate(73px, -1px) rotate(36deg);
+		transform: translate(73px, -1px) rotate(36deg);
+	}
+	40% {
+		-webkit-transform: translate(141px, 72px) rotate(72deg);
+		transform: translate(141px, 72px) rotate(72deg);
+	}
+	60% {
+		-webkit-transform: translate(83px, 122px) rotate(108deg);
+		transform: translate(83px, 122px) rotate(108deg);
+	}
+	80% {
+		-webkit-transform: translate(-40px, 72px) rotate(144deg);
+		transform: translate(-40px, 72px) rotate(144deg);
+	}
+	100% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+}
+
+@keyframes animationFramesOne {
+	0% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	20% {
+		-webkit-transform: translate(73px, -1px) rotate(36deg);
+		transform: translate(73px, -1px) rotate(36deg);
+	}
+	40% {
+		-webkit-transform: translate(141px, 72px) rotate(72deg);
+		transform: translate(141px, 72px) rotate(72deg);
+	}
+	60% {
+		-webkit-transform: translate(83px, 122px) rotate(108deg);
+		transform: translate(83px, 122px) rotate(108deg);
+	}
+	80% {
+		-webkit-transform: translate(-40px, 72px) rotate(144deg);
+		transform: translate(-40px, 72px) rotate(144deg);
+	}
+	100% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+}
+
+@-webkit-keyframes float-bob {
+	0% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	50% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+}
+
+@keyframes float-bob {
+	0% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	50% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+}
+/*REsponsive*/
+@media (max-width: 1600px) {
+	.hero-section .hero-bg {
+		left: -15%;
+	}
+	.hero-section .hero-bg img {
+		height: 890px;
+	}
+	.hero-section .hero-bg {
+		height: 890px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.hero-section {
+		height: 840px;
+	}
+	.hero-section .hero-bg {
+		height: 840px;
+		left: -18%;
+	}
+	.hero-section .hero-bg img {
+		height: 840px;
+	}
+}
+
+@media (max-width: 991px) {
+	.hero-section {
+		height: 840px;
+	}
+	.hero-section .hero-bg {
+		height: 840px;
+		left: -26%;
+	}
+	.hero-section .hero-bg img {
+		height: 840px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-section {
+		height: 840px;
+	}
+	.hero-section .hero-bg {
+		right: -120%;
+	}
+}
+
+@media (max-width: 640px) {
+	.hero-section .hero-bg {
+		left: -45%;
+	}
+	.hero-section .hero-bg {
+		left: -52%;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero-section .hero-bg {
+		left: -50%;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero-section {
+		height: 840px;
+	}
+	.hero-section .hero-bg {
+		left: -100%;
+	}
+}
+
+

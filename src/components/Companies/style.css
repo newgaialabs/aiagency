@@ -1,0 +1,36 @@
+/* ===================== COMPANIES ======================*/
+
+.companies-slider .slick-track {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.single-com-slider {
+	width: 75px;
+	text-align: center;
+	margin:auto
+}
+.single-com-slider img{
+	width: 75px;
+}
+
+.single-com-slider a {
+	opacity: 0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"
+}
+
+.single-com-slider a:hover {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.companies-left h4 {
+	color: #1c2045;
+	font-weight: 700;
+	font-size: 26px;
+}
+

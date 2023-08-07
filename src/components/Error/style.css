@@ -1,0 +1,53 @@
+/* ===================== ERROR ======================*/
+
+.error-page-header-area {
+	padding-top: 10px;
+}
+
+.error-page-logo-right {
+	text-align: right;
+}
+
+.error-page-area {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-height: 80vh;
+	text-align: center;
+}
+
+.error_bg {
+	background: url(../../img/404-bg.png) no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-position: center center;
+	display: inline-block;
+	font-weight: 800;
+	font-size: 140px;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 20px
+}
+
+.error-page-box h4 {
+	color: #1c2045;
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.error-page-box p {
+	width: 38%;
+	margin: 0 auto;
+}

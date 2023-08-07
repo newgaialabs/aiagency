@@ -1,0 +1,93 @@
+/* ===================== FOOTER ======================*/
+
+.footer-top {
+	padding-top: 70px;
+	padding-bottom: 40px
+}
+
+.footer-logo {
+	margin-bottom: 20px;
+}
+
+.single-footer {
+	margin-bottom: 30px
+}
+
+.single-footer h3 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.footer-social {
+	margin-top: 10px
+}
+
+.footer-social li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footer-social li a {
+	font-size: 18px !important
+}
+
+.footer-social li a.tw {
+	color: #00ACED
+}
+
+.footer-social li a.fb {
+	color: #3B5998;
+}
+
+.footer-social li a.gp {
+	color: #F04B3F;
+}
+
+.footer-social li a.pin {
+	color: #CB2027;
+}
+
+.footer-social li a.ln {
+	color: #007BB6;
+}
+
+.single-footer p {
+	font-size: 14px;
+}
+
+.single-footer>ul li {
+	line-height: 2.2
+}
+
+.single-footer>ul li a {
+	font-size: 14px;
+	color: #3a505f
+}
+
+.single-footer>ul li a:hover {
+	padding-left: 5px;
+	color: #7052fb
+}
+
+.single-footer>ul li>span {
+	font-weight: 600;
+	color: #1c2045;
+	margin-right: 5px
+}
+
+.copyright {
+	padding: 30px 0;
+	border-top: 1px solid #EBEBEF;
+}
+
+.copyright p {
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.copyright p span {
+	font-weight: 600;
+	color: #1c2045;
+}

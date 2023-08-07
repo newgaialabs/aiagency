@@ -1,0 +1,257 @@
+/* ===================== PRICING ======================*/
+
+.pricing-section .section-title {
+	text-align: center
+}
+
+.pricing-section .section-title h2 {
+	z-index: 1;
+	position: relative
+}
+
+.check_toggle {
+	text-align: center
+}
+
+.single-price-box {
+	padding-top: 38px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 15px;
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
+	margin-top: 30px;
+	box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1)
+}
+
+.pricing-section .checkbox {
+	display: none;
+}
+
+.pricing-section .switch {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-ms-grid-row-align: center;
+	align-items: center;
+	background-color: gray;
+	border-radius: 500px;
+	cursor: pointer;
+	display: inline-block;
+	height: 45px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0 10px;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 165px;
+	margin: 0;
+	text-align: center
+}
+
+.pricing-section .check_toggle [type="checkbox"]:not(:checked)+label:after,
+.pricing-section .check_toggle [type="checkbox"]:checked+label:after {
+	display: none
+}
+
+.pricing-section .check_toggle [type="checkbox"]:not(:checked)+label:before,
+.pricing-section .check_toggle [type="checkbox"]:checked+label:before {
+	display: none
+}
+
+.pricing-section .check_toggle [type="checkbox"]:not(:checked)+label,
+.pricing-section .check_toggle [type="checkbox"]:checked+label {
+	padding: 0
+}
+
+.pricing-section .checkbox:checked~.switch {
+	background: #7052fb none repeat scroll 0 0
+}
+
+.pricing-section .checkbox:not(:checked)~.switch {
+	background: #7052fb none repeat scroll 0 0;
+}
+
+.pricing-section .check_toggle {
+	margin-top: 30px;
+}
+
+.pricing-section .switch__left,
+.pricing-section .switch__right {
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: inline-block;
+	position: absolute;
+	left: 48px;
+	line-height: 45px;
+	width: 100%;
+	letter-spacing: 1px
+}
+
+.pricing-section .switch__left {
+	left: 6px
+}
+
+.pricing-section .switch__right {
+	left: -6px
+}
+
+.pricing-section .checkbox:checked~.switch .switch__left {
+	visibility: hidden;
+}
+
+.pricing-section .checkbox:not(:checked)~.switch .switch__right {
+	visibility: hidden;
+}
+
+.pricing-section .switch__circle {
+	height: 45px;
+	padding: 5px;
+	position: absolute;
+	-webkit-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	width: 45px;
+}
+
+.pricing-section .checkbox:checked~.switch .switch__circle {
+	right: 0;
+	left: calc(100% - 45px);
+}
+
+.pricing-section .checkbox:not(:checked)~.switch .switch__circle {
+	right: calc(100% - 45px);
+	left: 0;
+}
+
+.pricing-section .switch__circle-inner {
+	background-color: white;
+	border-radius: 50%;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.priceHide {
+	display: none;
+}
+
+.pricing-type {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.pricing-head .price {
+	font-size: 60px;
+	line-height: normal;
+	color: #7052fb;
+	font-weight: 500;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.pricing-head .price .dollar-sign {
+	font-size: 36px;
+	color: #7052fb;
+	font-weight: 400;
+	position: absolute;
+	left: -20px;
+	top: 16px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.pricing-head .price .per-time {
+	font-size: 18px;
+	color: #1c2045;
+	font-weight: 500;
+	margin-left: -15px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.pricing-body ul {
+	margin-top: 15px
+}
+
+.pricing-body ul li {
+	line-height: 2.4;
+	font-size: 15px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.pricing-body ul li.off-price {
+	color: #cbcbcb;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.hidden-charge {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #777b92;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.single-price-box.active,
+.single-price-box:hover {
+	background: #7052fb none repeat scroll 0 0;
+	color: #fff
+}
+
+.single-price-box.active .pricing-type,
+.single-price-box:hover .pricing-type {
+	color: #fff
+}
+
+.single-price-box.active .pricing-head .price,
+.single-price-box.active .pricing-head .price .dollar-sign,
+.single-price-box.active .pricing-head .price .per-time {
+	color: #fff
+}
+
+.single-price-box:hover .pricing-head .price,
+.single-price-box:hover .pricing-head .price .dollar-sign,
+.single-price-box:hover .pricing-head .price .per-time {
+	color: #fff
+}
+
+.single-price-box.active .pricing-body ul li.off-price,
+.single-price-box:hover .pricing-body ul li.off-price {
+	color: #a694f8
+}
+
+.single-price-box.active .hidden-charge,
+.single-price-box:hover .hidden-charge {
+	color: #fff
+}
+
+.single-price-box.active .theme-btn,
+.single-price-box:hover .theme-btn {
+	background: #fff none repeat scroll 0 0;
+	color: #7052fb
+}
+
+.single-price-box.active .theme-btn span,
+.single-price-box:hover .theme-btn span {
+	background: #7052fb none repeat scroll 0 0;
+	color: #fff
+}
+
+.single-price-box.active .theme-btn:hover,
+.single-price-box:hover .theme-btn:hover {
+	background: #4b2be3 none repeat scroll 0 0;
+	color: #fff;
+}

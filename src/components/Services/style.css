@@ -1,0 +1,172 @@
+/* ===================== SERVICES ======================*/
+
+.service-page .section-title {
+	text-align: center
+}
+
+.service-box {
+	margin-top: 30px;
+	padding: 40px;
+	background: #fff none repeat scroll 0 0;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-box p {
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-box:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: url(../../img/service-paternt.png) no-repeat;
+	z-index: -1;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 120px;
+	height: 150px;
+}
+
+.service-icon {
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: #7052fb;
+	position: relative;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-icon:after {
+	position: absolute;
+	content: "";
+	top: -5px;
+	left: -5px;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #7052fb;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-icon [class^="flaticon-"]:before,
+.service-icon [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+.service-icon [class*=" flaticon-"]:after {
+	font-size: 50px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-icon-bottom {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	color: #F6F5F9;
+	z-index: -1;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-icon-bottom [class^="flaticon-"]:before,
+.service-icon-bottom [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+.service-icon-bottom [class*=" flaticon-"]:after {
+	font-size: 90px;
+	line-height: 1em;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-title {
+	margin: 25px 0 20px 0;
+}
+
+.service-title h3 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.service-desc .btn-simple {
+	display: inline-block;
+	font-weight: 500;
+	color: #1c2045;
+	letter-spacing: 1px;
+}
+
+.service-desc .btn-simple:hover {
+	color: #7052fb
+}
+
+.service-box:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	width: 0;
+	height: 100%;
+	background-color: #7052fb;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	z-index: -1
+}
+
+.service-box:hover:after {
+	width: 100%;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.service-box:hover.service-icon {
+	color: #fff
+}
+
+.service-box:hover .service-icon:after {
+	border: 1px solid #fff
+}
+
+.service-box:hover .service-icon-bottom {
+	color: #7C61F5
+}
+
+.service-box:hover .service-title h3,
+.service-box:hover p,
+.service-box:hover .service-desc .btn-simple {
+	color: #fff
+}
+
+.service-box:hover:before {
+	z-index: 1
+}
+
+.service-box:hover .service-icon-bottom {
+	z-index: 1
+}
+
+.service-box:hover .service-icon {
+	color: #fff
+}
+
+.service-box:hover .service-desc {
+	position: relative;
+	z-index: 111
+}

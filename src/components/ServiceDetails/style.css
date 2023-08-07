@@ -1,0 +1,174 @@
+/* ===================== SERVICE SINGLE ======================*/
+
+.single-service-left-widget {
+	margin-bottom: 50px;
+}
+
+.single-service-left-widget li {
+	border-bottom: 0px solid #fff;
+	margin-bottom: 7px;
+}
+
+.single-service-left-widget li:last-child {
+	margin-bottom: 0
+}
+
+.single-service-left-widget li a {
+	background: #eef3fa none repeat scroll 0 0;
+	border-left: 5px solid #f7f7f7;
+	color: #1c2045;
+	display: block;
+	font-weight: 500;
+	padding: 10px 20px;
+	text-transform: capitalize;
+	border-radius: 30px;
+}
+
+.single-service-left-widget li a:hover,
+.single-service-left-widget ul li.active>a {
+	background: #7052fb none repeat scroll 0 0;
+	border-left: 5px solid #1c2045;
+	color: #fff;
+}
+
+.single-service-left-widget li a svg {
+	float: right;
+	margin-top: 5px;
+}
+
+.broucher-item {
+	margin: 10px 0;
+	position: relative;
+}
+
+.broucher-item > svg {
+	color: #ffff;
+	left: 14px;
+	font-size: 18px;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 16px;
+	width: 30px;
+}
+
+.widget-title {
+	margin-bottom: 25px;
+}
+
+.widget-title h3 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.broucher-item .theme-btn {
+	display: block;
+	padding: 12px 65px 12px 55px
+}
+
+.page-banner {
+	padding: 20px;
+	background: url(../../img/carrer_bg.jpg) no-repeat scroll 0 0/cover;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	border-radius: 10px
+}
+
+.page-banner>h3 {
+	color: #fff;
+	font-size: 26px;
+	text-transform: capitalize;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.page-banner p {
+	color: #fff;
+	line-height: 24px
+}
+
+.page-banner h4 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.page-banner:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(112, 82, 251, 0.9) none repeat scroll 0 0;
+	z-index: -1;
+	border-radius: 10px
+}
+
+.service-details-text {
+	margin-top: 30px;
+}
+
+.service-details-text h3 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 32px;
+	letter-spacing: .75px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	margin-bottom: 15px;
+}
+
+.service-details-text h4 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 28px;
+	letter-spacing: .75px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	margin-bottom: 15px;
+}
+
+.service-details-text p {
+	margin: 10px 0 0
+}
+
+.service-works-item {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	margin-top: 40px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.service-works-item .service-works-icon {
+	text-align: center;
+	margin-right: 20px;
+	-ms-flex-preferred-size: 50px;
+	flex-basis: 50px;
+	width: 50px;
+}
+
+.service-works-item .service-works-info {
+	width: 100%;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+
+.service-works-info h5 {
+	color: #1c2045;
+	font-weight: 600;
+	font-size: 22px;
+	letter-spacing: 0;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}

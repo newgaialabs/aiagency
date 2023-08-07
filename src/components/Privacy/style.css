@@ -1,0 +1,48 @@
+/* ===================== PRIVACY ======================*/
+
+.privacy-inn {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.privacy-block {
+	margin-top: 50px
+}
+
+.privacy-block h3 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #1c2045;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.privacy-block p {
+	margin: 15px 0 0
+}
+
+.privacy-block ul {
+	margin-top: 30px;
+	padding-left: 30px
+}
+
+.privacy-block ul li {
+	margin: 12px 0;
+	position: relative
+}
+
+.privacy-block ul li:after {
+	position: absolute;
+	content: "";
+	top: 45%;
+	left: -25px;
+	height: 3px;
+	width: 15px;
+	background: #7052FB none repeat scroll 0 0;
+}
+
+.privacy-block ul li span {
+	color: #1c2045;
+	font-weight: 600;
+	margin-right: 10px
+}
