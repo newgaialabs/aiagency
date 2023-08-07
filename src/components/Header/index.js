@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
 import MobileMenu from "../../components/MobileMenu";
-import { FaShoppingCart, FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import logo from "../../img/logo.png";
 import "./style.css";
 
@@ -20,9 +20,9 @@ const Header = (props) => {
 
   window.addEventListener("scroll", setFixed);
 
-  const onClick = (e) => {
-    e.preventDefault();
-  };
+  // const onClick = (e) => {
+  //   e.preventDefault();
+  // };
 
   return (
     <>

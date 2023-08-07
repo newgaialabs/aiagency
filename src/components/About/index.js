@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
-import { FaChevronRight } from "react-icons/fa";
+// import { FaChevronRight } from "react-icons/fa";
 import img1 from "../../img/about-shape.png";
 import img2 from "../../img/about.png";
 import img3 from "../../img/about.jpg";
